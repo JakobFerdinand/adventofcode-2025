@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("Hello, Advent of Code!");
 
-var lines = File.ReadAllLines("input/input1.txt");
+var lines = File.ReadAllLines("input/day1.sample");
 
 int dail = 50;
 int password = 0;
