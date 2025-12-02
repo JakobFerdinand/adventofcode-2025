@@ -24,7 +24,10 @@ foreach (var line in lines)
 				hits = 1 + (count - dail) / 100;
 			}
 			dail = (dail - count) % 100;
-			if (dail < 0) dail += 100;
+			if (dail < 0)
+			{
+				dail += 100;
+			}
 			break;
 		case string s when s[0] is 'R':
 			hits = (dail + count) / 100;
